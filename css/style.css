@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0288d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: #0277bd;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-preview {
+    margin-bottom: 40px;
+}
+
+.post-preview h2 {
+    font-size: 1.8rem;
+    color: #0288d1;
+}
+
+.post-preview p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.post-preview a {
+    color: #0277bd;
+    text-decoration: none;
+}
+
+.post-preview a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .post-preview h2 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .post-preview h2 {
+        font-size: 1.3rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
